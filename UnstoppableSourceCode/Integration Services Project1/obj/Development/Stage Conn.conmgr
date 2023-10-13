@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Stage Conn"
+  DTS:DTSID="{44769FE8-B360-4AC6-A3BF-3925891971C7}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;User ID=azureuser;Initial Catalog=Sales_Stage;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Unstoppable_Stage-{44769FE8-B360-4AC6-A3BF-3925891971C7}Stage;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArfTYNHVyPEmXe79C4RbC9QAAAAACAAAAAAAQZgAAAAEAACAAAAB5/k6U33NMYve8AiPvRObDD17xJHqIpe7a1rtLuh0G3QAAAAAOgAAAAAIAACAAAADLaqLbP0R7dTI55iCXYVgzTo8Gk0PQTkk8usF1blNc9IAAAAAJ+twngftUhcONphgBgWlxyuMMpdBNsnMZSp/bVk6IsL9GnnbxqBfcmrMFzFjo48dj3tLdLVolOqlR2+gxF3VNBR/D1cp/d5rHuggTwX6LhBX0PL+H4OMpQWTgQY8wMfdyu0lh/qHpWOpQgHJtvr3RoEVnZ4x/3mxXJs5X4uG+TUAAAABHK1aFCFXiaX06mM/PFUxWhkOIvaZBSi5IXPx6De0msvI0uaPOYaUMgvezMkFvLbMeH3BJp6tJtXHnvI8pCLDN</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
